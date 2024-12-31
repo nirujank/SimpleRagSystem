@@ -49,7 +49,7 @@ var cloudServices = new List<CloudService>()
 
 // Create the embedding generator
 IEmbeddingGenerator<string, Embedding<float>> generator =
-    new OllamaEmbeddingGenerator(new Uri("http://localhost:11434/"), "phi3.5");
+    new OllamaEmbeddingGenerator(new Uri("http://localhost:11434/"), "llama3.1");
 
 // Create and populate the vector store
 var vectorStore = new InMemoryVectorStore();
@@ -62,8 +62,12 @@ foreach (var service in cloudServices)
     await cloudServicesStore.UpsertAsync(service);
 }
 
+while(true)
+{
 // Convert a search query to a vector and search the vector store
-var query = "Which Azure service should I use to store my Word documents?";
+Console.WriteLine("Query: ");
+var query = Console.ReadLine();
+//var query = "Which Azure service should I use to store my Word documents?";
 var queryEmbedding = await generator.GenerateEmbeddingVectorAsync(query);
 
 var results = await cloudServicesStore.VectorizedSearchAsync(queryEmbedding, new VectorSearchOptions()
@@ -78,4 +82,4 @@ await foreach (var result in results.Results)
     Console.WriteLine($"Description: {result.Record.Description}");
     Console.WriteLine($"Vector match score: {result.Score}");
     Console.WriteLine();
-}
+}}

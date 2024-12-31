@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
+    "net8.0": {
       "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
         "type": "package",
         "compile": {
@@ -29,12 +29,12 @@
       "Microsoft.Extensions.AI.Abstractions/9.0.1-preview.1.24570.5": {
         "type": "package",
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.AI.Abstractions.dll": {
+          "lib/net8.0/Microsoft.Extensions.AI.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.AI.Abstractions.dll": {
+          "lib/net8.0/Microsoft.Extensions.AI.Abstractions.dll": {
             "related": ".xml"
           }
         }
@@ -43,16 +43,16 @@
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.AI.Abstractions": "9.0.1-preview.1.24570.5",
-          "System.Net.Http.Json": "9.0.0",
-          "System.Text.Json": "9.0.0"
+          "System.Net.Http.Json": "8.0.1",
+          "System.Text.Json": "8.0.5"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.AI.Ollama.dll": {
+          "lib/net8.0/Microsoft.Extensions.AI.Ollama.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.AI.Ollama.dll": {
+          "lib/net8.0/Microsoft.Extensions.AI.Ollama.dll": {
             "related": ".xml"
           }
         }
@@ -62,16 +62,16 @@
         "dependencies": {
           "Microsoft.Extensions.AI.Abstractions": "9.0.1-preview.1.24570.5",
           "OpenAI": "2.1.0-beta.2",
-          "System.Memory.Data": "9.0.0",
-          "System.Text.Json": "9.0.0"
+          "System.Memory.Data": "8.0.1",
+          "System.Text.Json": "8.0.5"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.AI.OpenAI.dll": {
+          "lib/net8.0/Microsoft.Extensions.AI.OpenAI.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.AI.OpenAI.dll": {
+          "lib/net8.0/Microsoft.Extensions.AI.OpenAI.dll": {
             "related": ".xml"
           }
         }
@@ -83,12 +83,12 @@
           "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Configuration.dll": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Configuration.dll": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
             "related": ".xml"
           }
         },
@@ -102,12 +102,12 @@
           "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
             "related": ".xml"
           }
         },
@@ -125,12 +125,12 @@
           "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
             "related": ".xml"
           }
         },
@@ -144,15 +144,16 @@
           "Microsoft.Extensions.Configuration": "9.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.0",
           "Microsoft.Extensions.Configuration.FileExtensions": "9.0.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "9.0.0"
+          "Microsoft.Extensions.FileProviders.Abstractions": "9.0.0",
+          "System.Text.Json": "9.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Configuration.Json.dll": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Json.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Configuration.Json.dll": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Json.dll": {
             "related": ".xml"
           }
         },
@@ -169,12 +170,12 @@
           "Microsoft.Extensions.FileProviders.Physical": "9.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {
             "related": ".xml"
           }
         },
@@ -205,12 +206,12 @@
           "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
             "related": ".xml"
           }
         },
@@ -226,12 +227,12 @@
           "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.dll": {
             "related": ".xml"
           }
         },
@@ -242,12 +243,12 @@
       "Microsoft.Extensions.FileSystemGlobbing/9.0.0": {
         "type": "package",
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+          "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+          "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
             "related": ".xml"
           }
         },
@@ -277,12 +278,12 @@
       "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Primitives.dll": {
+          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Primitives.dll": {
+          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
             "related": ".xml"
           }
         },
@@ -393,36 +394,40 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "System.Memory.Data/9.0.0": {
+      "System.IO.Pipelines/9.0.0": {
         "type": "package",
         "compile": {
-          "lib/net9.0/System.Memory.Data.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/System.IO.Pipelines.dll": {}
         },
         "runtime": {
-          "lib/net9.0/System.Memory.Data.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/System.IO.Pipelines.dll": {}
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "System.Net.Http.Json/9.0.0": {
+      "System.Memory.Data/8.0.1": {
         "type": "package",
         "compile": {
-          "lib/net9.0/System.Net.Http.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/System.Memory.Data.dll": {}
         },
         "runtime": {
-          "lib/net9.0/System.Net.Http.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/System.Memory.Data.dll": {}
         },
         "build": {
-          "buildTransitive/net8.0/_._": {}
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {}
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.Numerics.Tensors/8.0.0": {
@@ -441,15 +446,37 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "System.Text.Json/9.0.0": {
+      "System.Text.Encodings.Web/9.0.0": {
         "type": "package",
         "compile": {
-          "lib/net9.0/System.Text.Json.dll": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {}
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll": {
+            "assetType": "runtime",
+            "rid": "browser"
+          }
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/System.Text.Json.dll": {
+          "lib/net8.0/System.Text.Json.dll": {
             "related": ".xml"
           }
         },
@@ -1058,10 +1085,34 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Memory.Data/9.0.0": {
-      "sha512": "CxUGXLXdbG7hxdQCRdxQKwq//OtYfxKsKyy6oYjSr9zpSvza5rW9TxokNasSLfmETRKDTfu1zqW8RQKokyKw/Q==",
+    "System.IO.Pipelines/9.0.0": {
+      "sha512": "eA3cinogwaNB4jdjQHOP3Z3EuyiDII7MT35jgtnsA4vkn0LUrrSHsU0nzHTzFzmaFYeKV7MYyMxOocFzsBHpTw==",
       "type": "package",
-      "path": "system.memory.data/9.0.0",
+      "path": "system.io.pipelines/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.IO.Pipelines.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.IO.Pipelines.targets",
+        "lib/net462/System.IO.Pipelines.dll",
+        "lib/net8.0/System.IO.Pipelines.dll",
+        "lib/net9.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "system.io.pipelines.9.0.0.nupkg.sha512",
+        "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Memory.Data/8.0.1": {
+      "sha512": "BVYuec3jV23EMRDeR7Dr1/qhx7369dZzJ9IWy2xylvb4YfXsrUxspWc4UWYid/tj4zZK58uGZqn2WQiaDMhmAg==",
+      "type": "package",
+      "path": "system.memory.data/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1071,25 +1122,22 @@
         "THIRD-PARTY-NOTICES.TXT",
         "buildTransitive/net461/System.Memory.Data.targets",
         "buildTransitive/net462/_._",
-        "buildTransitive/net8.0/_._",
+        "buildTransitive/net6.0/_._",
         "buildTransitive/netcoreapp2.0/System.Memory.Data.targets",
         "lib/net462/System.Memory.Data.dll",
-        "lib/net462/System.Memory.Data.xml",
+        "lib/net6.0/System.Memory.Data.dll",
+        "lib/net7.0/System.Memory.Data.dll",
         "lib/net8.0/System.Memory.Data.dll",
-        "lib/net8.0/System.Memory.Data.xml",
-        "lib/net9.0/System.Memory.Data.dll",
-        "lib/net9.0/System.Memory.Data.xml",
         "lib/netstandard2.0/System.Memory.Data.dll",
-        "lib/netstandard2.0/System.Memory.Data.xml",
-        "system.memory.data.9.0.0.nupkg.sha512",
+        "system.memory.data.8.0.1.nupkg.sha512",
         "system.memory.data.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Net.Http.Json/9.0.0": {
-      "sha512": "e8s0BFOwHaFTqz6wi3l+9tm0SuKOUs5wiahHTjnAabF9n1+0NuZeG/vOLo2vSfUp+DlIChaRfnAiOFkRpHN/ew==",
+    "System.Net.Http.Json/8.0.1": {
+      "sha512": "F423ZLoJFYg1s6iA+Y7BLflVKjEK5XEA2+Z9CHbxJEUtS3+R5pgnFN499QzriRjYpOu6kS2Crd2YBkOFDHrblg==",
       "type": "package",
-      "path": "system.net.http.json/9.0.0",
+      "path": "system.net.http.json/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1099,17 +1147,14 @@
         "THIRD-PARTY-NOTICES.TXT",
         "buildTransitive/net461/System.Net.Http.Json.targets",
         "buildTransitive/net462/_._",
-        "buildTransitive/net8.0/_._",
+        "buildTransitive/net6.0/_._",
         "buildTransitive/netcoreapp2.0/System.Net.Http.Json.targets",
         "lib/net462/System.Net.Http.Json.dll",
-        "lib/net462/System.Net.Http.Json.xml",
+        "lib/net6.0/System.Net.Http.Json.dll",
+        "lib/net7.0/System.Net.Http.Json.dll",
         "lib/net8.0/System.Net.Http.Json.dll",
-        "lib/net8.0/System.Net.Http.Json.xml",
-        "lib/net9.0/System.Net.Http.Json.dll",
-        "lib/net9.0/System.Net.Http.Json.xml",
         "lib/netstandard2.0/System.Net.Http.Json.dll",
-        "lib/netstandard2.0/System.Net.Http.Json.xml",
-        "system.net.http.json.9.0.0.nupkg.sha512",
+        "system.net.http.json.8.0.1.nupkg.sha512",
         "system.net.http.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -1141,6 +1186,34 @@
         "lib/netstandard2.0/System.Numerics.Tensors.xml",
         "system.numerics.tensors.8.0.0.nupkg.sha512",
         "system.numerics.tensors.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Text.Encodings.Web/9.0.0": {
+      "sha512": "e2hMgAErLbKyUUwt18qSBf9T5Y+SFAL3ZedM8fLupkVj8Rj2PZ9oxQ37XX2LF8fTO1wNIxvKpihD7Of7D/NxZw==",
+      "type": "package",
+      "path": "system.text.encodings.web/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Text.Encodings.Web.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Text.Encodings.Web.targets",
+        "lib/net462/System.Text.Encodings.Web.dll",
+        "lib/net8.0/System.Text.Encodings.Web.dll",
+        "lib/net9.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.xml",
+        "runtimes/browser/lib/net9.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net9.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.9.0.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -1217,7 +1290,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net9.0": [
+    "net8.0": [
       "Microsoft.Extensions.AI.Ollama >= 9.0.1-preview.1.24570.5",
       "Microsoft.Extensions.AI.OpenAI >= 9.0.1-preview.1.24570.5",
       "Microsoft.Extensions.Configuration >= 9.0.0",
@@ -1227,37 +1300,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\STech\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NetCore\\7. RAG\\SimpleRagSystem\\SimpleRagSystem.csproj",
+      "projectUniqueName": "/workspaces/SimpleRagSystem/SimpleRagSystem.csproj",
       "projectName": "SimpleRagSystem",
-      "projectPath": "D:\\NetCore\\7. RAG\\SimpleRagSystem\\SimpleRagSystem.csproj",
-      "packagesPath": "C:\\Users\\STech\\.nuget\\packages\\",
-      "outputPath": "D:\\NetCore\\7. RAG\\SimpleRagSystem\\obj\\",
+      "projectPath": "/workspaces/SimpleRagSystem/SimpleRagSystem.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/SimpleRagSystem/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\STech\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -1269,13 +1334,12 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.Extensions.AI.Ollama": {
             "target": "Package",
@@ -1318,7 +1382,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
